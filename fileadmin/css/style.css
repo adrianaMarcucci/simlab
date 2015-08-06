@@ -300,7 +300,15 @@ ol li {
 }
 
 #main a {
-	color: #1c1c1c;
+	color: #1E83D5;
+	text-decoration:none;
+	
+}
+
+#main a:hover {
+	color: #1E83D5;
+	text-decoration:underline;
+	
 }
 
 #main .more a {
@@ -349,6 +357,11 @@ ol li {
 }
 
 #sidebar a {
+	color: #5e5e5e;
+	text-decoration: none;
+}
+
+#sidebar a:hover {
 	color: #5e5e5e;
 	text-decoration: none;
 }
@@ -427,6 +440,16 @@ ol li {
 	border-top: 0;
 }
 
+#infoBox a {
+	color: #5e5e5e;
+}
+
+#infoBox a:hover {
+	text-decoration:underline;
+	color: #5e5e5e;
+}
+
+
 #menuBox {
 	margin: 0 0 15pt 0;
 	padding: 5pt 5pt 0pt 5pt;
@@ -481,7 +504,6 @@ ol li {
 	text-align: center;
 	color: #999999;
 }
-
 
 /*********************************************************************************/
 /* Slider                                                                        */
@@ -729,7 +751,7 @@ ol li {
 	border-right: 0px;}
 	
 
-.column-options .icon {
+#icon {
 	float: right;
 	display: inline-block;
 	width: 18px;
@@ -740,28 +762,20 @@ ol li {
 	color: #999999;
 }
 
-.column-options a {
-	text-decoration:none;
-}	
-
-.column-options a:hover {
-	text-decoration:underline;
+#iconDef {
+	clear: left;
+	display: inline-block;
+	width: 12px;
+	height: 18px;
+	margin: 0 0 0 2pt;
+	line-height:  18px;
+	font-size: 0.8em;
+	color: #999999;
 }
-
 
 #main .details {
 	font-size: 10pt;
 	}
-
-#main .details a {
-	text-decoration:none;
-	color: #5e5e5e;
-}	
-
-#main .details a:hover {
-	text-decoration:underline;
-	color: #5e5e5e;
-}
 
 #main .details ul {
 	margin: 0pt 10pt 0pt 10pt;

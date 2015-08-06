@@ -98,13 +98,13 @@ else{
 			echo "<td>".$row["description"]."  <a href=# class='moreInfo'><span class='icon icon-plus-sign' id='icon'></span></a>";
 			echo "<div class='details'>";
 			echo "<br><ul>";
-			echo "<li><a href='classification.php#approach'>Analytical approach</a>: " . $row["approach"]. "</li>";
-			echo "<li><a href='classification.php#purpose'>Purpose</a>: " . $row["purpose"]. "</li>";
-			echo "<li><a href='classification.php#methodology'>Methodology</a>: " . $row["methodology"]. "</li>";
-			echo "<li><a href='classification.php#stochastic'>" . $row["stochastic"]. "</a></li>";
+			echo "<li>Analytical approach: " . $row["approach"]. "<a href='classification.php#approach'><span class='icon icon-question-sign' id='iconDef'></span></a></li>";
+			echo "<li>Purpose: " . $row["purpose"]. "<a href='classification.php#purpose'><span class='icon icon-question-sign' id='iconDef'></span></a></li>";
+			echo "<li>Methodology: " . $row["methodology"]. "<a href='classification.php#methodology'><span class='icon icon-question-sign' id='iconDef'></span></a></li>";
+			echo "<li>" . $row["stochastic"]. "<a href='classification.php#stochastic'><span class='icon icon-question-sign' id='iconDef'></span></a></li>";
 			echo "<li>Regions: " . $row["regions"]. "</li>";
 			echo "<li>Sectors: " . $row["sectors"]. "</li>";
-			echo "<li><a href='classification.php#dynamic'>" . $row["dynamic"]. "</a></li>";
+			echo "<li>" . $row["dynamic"]. "<a href='classification.php#dynamic'><span class='icon icon-question-sign' id='iconDef'></span></a></li>";
 			echo "<li>Time horizon: " . $row["time_hor"]. "</li>";
 			echo "<li>Developer: " . $row["developer"]. "</li>";
 			//echo "<li>Contact: <a href=mailto:".$row["contact_email"].">". $row["contact_name"]. "</a></li>";
