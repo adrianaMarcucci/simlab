@@ -1,0 +1,62 @@
+ #tooltip
+{
+    text-align: center;
+    color: #fff;
+    background: #93a7ac;
+    position: absolute;
+    padding: 6px 6px 6px 6px;
+    border-radius: 5px;
+    box-sizing: border-box;   
+    font-size: 9.5pt;
+    line-height: 1.4em;
+    
+}
+/* This is the close cross on the right top
+    @media only screen and (max-width: 800px){
+        #tooltip:before{
+            content: 'x';
+            position: absolute;
+            color: #fff;
+            right: 8px;
+            top: 3px;
+            font-size: 9pt;
+        }
+    }    
+*/
+ 
+    #tooltip:after /* triangle decoration */
+    {
+        width: 0;
+        height: 0;
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        border-top: 6px solid rgba(0,0,0,0.8);
+        content: '';
+        position: absolute;
+        left: 50%;
+        bottom: -6px;
+        margin-left: -10px;
+    }
+ 
+        #tooltip.top:after
+        {
+            border-top-color: transparent;
+            border-bottom: 6px solid #111;
+            
+            top: -11px;                         
+            bottom: auto;
+        }
+
+ 
+        #tooltip.left:after
+        {
+            left: 10px;
+            margin: 0;
+        }
+ 
+        #tooltip.right:after
+        {
+            right: 10px;
+            left: auto;
+            margin: 0;
+        }
