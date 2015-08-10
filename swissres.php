@@ -93,6 +93,7 @@ include('footer.html');
 	include('jqueryMin_include.php');//This has to be active if the library jquery.min.js is needed
 	$containers = array("box1","box2","box3");
 	include('glossaryTooltip_include.php'); //This activates the glossary tooltip, requires jquery.min.js
+	include('floatingMenu.html');//This is the function to make the menu float
 ?>
 
 </body>

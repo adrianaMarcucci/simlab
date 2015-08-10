@@ -1,0 +1,15 @@
+<!-- Script to make the menu float-->
+<script type="text/javascript">
+$(document).ready(function() {
+	var name = "#sidebar";
+	menuYloc = parseInt($(name).css("margin-top"));
+	$(window).scroll(function () {
+	    	var offset = null;
+	    	if($(document).scrollTop() < (105))
+	    		offset= menuYloc;
+			else
+				offset= $(document).scrollTop()-110+"px";
+			$(name).animate({marginTop:offset},{duration:500,queue:false});
+    });
+});
+</script>

@@ -37,13 +37,19 @@ include('header.php');
 <!-- ****************************************************************************************************************** -->
 <div id="main">
 
+<?php
+$content = 'simlab';
+include('simlab_sideBar.php');
+?>
+
+<div id="mainBox">
 <h1>
 Simulation Lab
 </h1>
 
 <p>
 <i>SimLab</i> is a virtual platform for sharing knowledge about simulation models for socio-economic energy research in Switzerland.
-The SimLab is a shared infrastructure of <a href="http://www.sccer-crest.ch/" target="_blank">SCCER-CREST</a> hosted by the Center for Energy Policy and Economics (CEPE) at ETH Zurich.
+The SimLab is a shared infrastructure of <a href="http://www.sccer-crest.ch/" target="_blank">SCCER-CREST</a> hosted by the Center of Economic Research (CER) at ETH Zurich.
 </p>
 
 <h1>What do we do?</h1>
@@ -66,12 +72,14 @@ Developing simulation models is a demanding process due (i) the complex underlyi
 </ul>
 
 
-</div>
+</div><!--Closes mainBox-->
+</div><!--Closes main-->
 
 <?php
 include('footer.html');
 ?>
 
 </div>
+
 </body>
 </html>

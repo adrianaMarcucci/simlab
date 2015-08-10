@@ -13,7 +13,6 @@
 		<li class="<?php if ($current_page=="data") {echo "active"; }?>">  <a href="data.php">Data</a>	</li>
 		<li class="<?php if ($current_page=="activities") {echo "active"; }?>">  <a href="activities.php">Activities</a>	</li>
 		<li class="<?php if ($current_page=="glossary") {echo "active"; }?>">  <a href="glossary.php">Glossary</a>	</li>
-		<li class="<?php if ($current_page=="team") {echo "active"; }?>">  <a href="team.php">Team</a>	</li>
 	</ul>
 </div>
 

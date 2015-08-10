@@ -6,7 +6,7 @@
 		<ul class="submenu" id="submenu">
 		<li class="first<?php if ($model=="cepe") {echo "Active"; }?>"><a href="cepe.php">CEPE</a></li>
 		<li class="<?php if ($model=="cite") {echo "active"; }?>"><a href="cite.php">CITE</a></li>
-		<li class="<?php if ($model=="crosstem") {echo "active"; }?>"><a href="stem.php">CROSSTEM</a></li>
+		<li class="<?php if ($model=="crosstem") {echo "active"; }?>"><a href="crosstem.php">CROSSTEM</a></li>
 		<li class="<?php if ($model=="gemini-e3") {echo "active"; }?>"><a href="geminie3.php">GEMINI-E3</a></li>
 		<li class="<?php if ($model=="scs") {echo "active"; }?>"><a href="scs.php">SCS</a></li>
 		<li class="<?php if ($model=="stem") {echo "active"; }?>"><a href="stem.php">STEM</a></li>

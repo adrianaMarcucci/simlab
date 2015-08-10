@@ -114,8 +114,13 @@ framework.
 <h2>
 References
 </h2>
-For a detailed model description: Bretscher, L, Ramer, R. and Schwark, F. (2011): Growth effects of carbon policies: Applying a fully dynamic CGE model with heterogeneous capital. Resource and Energy Economics, 33(4), 963-980. <a href="http://www.sciencedirect.com/science/article/pii/S0928765511000431#" target=_blank>Link</a><br><br>
-For a recent application: Bretschger, L., Ramer, R., and Zhang, L. (2012): Economic effects of a nuclear phase-out policy: A CGE analysis. Economics Working Paper Series 12/167, ETH Zurich. <a href="http://www.cer.ethz.ch/research/WP-12-167.pdf" target=_blank>Link</a>
+<h3>Detailed model description</h3>
+Bretscher, L, Ramer, R. and Schwark, F. (2011): Growth effects of carbon policies: Applying a fully dynamic CGE model with heterogeneous capital. Resource and Energy Economics, 33(4), 963-980. <a href="http://www.sciencedirect.com/science/article/pii/S0928765511000431#" target=_blank><span class='icon icon-external-link' id='iconLink'></span></a><br><br>
+
+<h3>Recent application</h3>
+For a recent application: Bretschger, L., Ramer, R., and Zhang, L. (2012): Economic effects of a nuclear phase-out policy: A CGE analysis. Economics Working Paper Series 12/167, ETH Zurich. <a href="http://www.cer.ethz.ch/research/WP-12-167.pdf" target=_blank><span class='icon icon-external-link' id='iconLink'></span></a>
+
+
 
 <br class="clear" />
 <br class="clear" />
@@ -125,7 +130,7 @@ Sources
 </h2>
 <ul>
 <li class="first">Narayanan, G., A. Badri, and R. McDougall, ed. 2012. Global Trade, Assistance, and Production: The GTAP 8 Data Base. Center for Global Trade Analysis, Purdue University.</li>
-<li class="last">Peter M., van Nieuwkoop R., Nathani C., Sutter D., Kraner S.(2013): "Energy related disaggregation of the Swiss IOT 2008 and revision of energy-IOT 2001 AND 2005", SFOE, EWG Publication 290843, Bern</li>
+<li class="last">Peter M., van Nieuwkoop R., Nathani C., Sutter D., Kraner S.(2013): "Energy related disaggregation of the Swiss IOT 2008 and revision of energy-IOT 2001 AND 2005", SFOE, EWG Publication 290843, Bern.</li>
 </ul>
 
 </div><!--Closes mainBox-->
@@ -143,6 +148,7 @@ include('footer.html');
 	include('jqueryMin_include.php');//This has to be active if the library jquery.min.js is needed
 	$containers = array("box1","box2","box3");
 	include('glossaryTooltip_include.php'); //This activates the glossary tooltip, requires jquery.min.js
+	include('floatingMenu.html');//This is the function to make the menu float
 ?>
 
 </body>

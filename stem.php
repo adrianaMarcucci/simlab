@@ -113,11 +113,11 @@ heat or transport).
 References
 </h2>
 	<ul>
-	<li class="first"> Kannan R., H. Turton (2014) Switzerland energy transition scenarios: Development and application of the Swiss TIMES Energy system Model (STEM), Final Report to Swiss Federal Office of Energy, Bern <a href="http://www.bfe.admin.ch/forschungewg/index.html?lang=de&dossier_id=02886" target="_blank">Link</a></li>
-	<li>Kannan, R., Turton, H. (2014). Interplay between electricity and transport sectors: Integrating the Swiss car fleet and electricity system, IAEE European Energy Conference, Rome, Italy</li>
-	<li>Kannan, R., Turton, H. (2014). Transition to a secure and low carbon Swiss energy system, 66th Semi-Annual IEA-ETSAP meeting, Copenhagen, Denmark</li>
-	<li>Loulou R., Remne U., Kanudia A., Lehtila A., and Goldstein G. (2005) Documentation for the TIMES Model, Energy Technology Systems Analysis Programme</li>
-	<li class="last">Swiss TIMES Energy system Model (STEM) documentation <a href="http://www.psi.ch/eem/stem" target="_blank">Link </a></li>
+	<li class="first"> Kannan R., H. Turton (2014) Switzerland energy transition scenarios: Development and application of the Swiss TIMES Energy system Model (STEM), Final Report to Swiss Federal Office of Energy, Bern. <a href="http://www.bfe.admin.ch/forschungewg/index.html?lang=de&dossier_id=02886" target="_blank"><span class='icon icon-external-link' id='iconLink'></span></a></li>
+	<li>Kannan, R., Turton, H. (2014). Interplay between electricity and transport sectors: Integrating the Swiss car fleet and electricity system, IAEE European Energy Conference, Rome, Italy.</li>
+	<li>Kannan, R., Turton, H. (2014). Transition to a secure and low carbon Swiss energy system, 66th Semi-Annual IEA-ETSAP meeting, Copenhagen, Denmark.</li>
+	<li>Loulou R., Remne U., Kanudia A., Lehtila A., and Goldstein G. (2005) Documentation for the TIMES Model, Energy Technology Systems Analysis Programme.</li>
+	<li class="last">Swiss TIMES Energy system Model (STEM) documentation. <a href="http://www.psi.ch/eem/stem" target="_blank"><span class='icon icon-external-link' id='iconLink'></span></a></li>
 	</ul>
 
 </div><!--Closes mainBox-->
@@ -134,6 +134,7 @@ include('footer.html');
 	include('jqueryMin_include.php');//This has to be active if the library jquery.min.js is needed
 	$containers = array("box1","box2","box3");
 	include('glossaryTooltip_include.php'); //This activates the glossary tooltip, requires jquery.min.js
+	include('floatingMenu.html');//This is the function to make the menu float
 ?>
 
 </body>

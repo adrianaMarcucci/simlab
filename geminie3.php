@@ -111,7 +111,7 @@ Applications and references
 </h2>
 
 
-<h3>For a detailed model description</h3>
+<h3>Detailed model description</h3>
 <ul>
 <li class="first">
 A. Bernard and M. Vielle, <i>GEMINI-E3, A General Equilibrium Model of International-National Interactions between Economy, Energy and the Environment</i>.
@@ -126,7 +126,7 @@ Environmental Modeling and Assessment, Volume 8, Number 3, pp 199-217, September
 <h3>Representative Swiss applications</h3>
 <ul>
 <li class="first">
-P. Thalmann and M. Vielle, <i>La Suisse sur la voie de la d&eacute;carbonisation profonde</i>. La Vie &eacute;conomique 6/2015
+P. Thalmann and M. Vielle, <i>La Suisse sur la voie de la d&eacute;carbonisation profonde</i>. La Vie &eacute;conomique 6/2015.
 </li>
 <li>
 A-K. Faust, C. Gonseth and M. Vielle, <i>The economic impact of climate driven changes in water availability in Switzerland</i>. Water Policy to appear 2015.
@@ -163,6 +163,7 @@ include('footer.html');
 	include('jqueryMin_include.php');//This has to be active if the library jquery.min.js is needed
 	$containers = array("box1","box2","box3");
 	include('glossaryTooltip_include.php'); //This activates the glossary tooltip, requires jquery.min.js
+	include('floatingMenu.html');//This is the function to make the menu float
 ?>
 
 </body>

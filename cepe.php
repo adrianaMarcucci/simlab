@@ -95,8 +95,8 @@ electricity trade can be studied.
 <h2>
 References
 </h2>
-For a detailed model description and sample application:
-Abrell, J. and Rausch, S. (2015): Cross-Country Electricity Trade, Renewable Energy and Transmission Infrastructure Policy. Working Paper ETH Zurich. (LINK)
+<h3>Detailed model description</h3>
+Abrell, J. and Rausch, S. (2015): Cross-Country Electricity Trade, Renewable Energy and Transmission Infrastructure Policy. Working Paper ETH Zurich.
 
 
 <br class="clear" />
@@ -105,11 +105,11 @@ Abrell, J. and Rausch, S. (2015): Cross-Country Electricity Trade, Renewable Ene
 Sources
 </h2>
 	<ul>
-	<li class="first">ENTSO-E. 2011. <a href="https://www.entsoe.eu/publications/market-reports/ntc-values/ntc-matrix/Pages/default.aspx" target="_blank">Indicative values for Net Transfer Capacities (NTC) in Continental Europe</a></li>
-	<li>ENTSO-E. 2013a. <a href="https://www.entsoe.eu/data/data-portal/consumption/ENTSO-E" target="_blank">Load data</a></li>
-	<li>ENTSO-E. 2013b.  <a href="https://www.entsoe.eu/data/data-portal/production/Pages/default.aspx" target="_blank"> Monthly production for a specific year</a></li>
+	<li class="first">ENTSO-E. 2011. Indicative values for Net Transfer Capacities (NTC) in Continental Europe. <a href="https://www.entsoe.eu/publications/market-reports/ntc-values/ntc-matrix/Pages/default.aspx" target="_blank"><span class='icon icon-external-link' id='iconLink'></span></a></li>
+	<li>ENTSO-E. 2013a. Hourly electricity generation. <a href="https://www.entsoe.eu/data/data-portal/consumption/ENTSO-E" target="_blank"><span class='icon icon-external-link' id='iconLink'></span></a></li>
+	<li>ENTSO-E. 2013b. Electricity generation from renewable sources - monthly production for a specific year. <a href="https://www.entsoe.eu/data/data-portal/production/Pages/default.aspx" target="_blank"><span class='icon icon-external-link' id='iconLink'></span></a></li>
 	<li>Narayanan, G., A. Badri, and R. McDougall, ed. 2012. Global Trade, Assistance, and Production: The GTAP 8 Data Base. Center for Global Trade Analysis, Purdue University.</li>
-	<li class="last">Platts. 2013. "World Electric Power Plants Database (Version Spring 2013)"</li>
+	<li class="last">Platts. 2013. "World Electric Power Plants Database (Version Spring 2013)". </li>
 	</ul>
 
 </div><!--Closes mainBox-->
@@ -126,8 +126,8 @@ include('footer.html');
 	include('jqueryMin_include.php');//This has to be active if the library jquery.min.js is needed
 	$containers = array("box1","box2","box3");
 	include('glossaryTooltip_include.php'); //This activates the glossary tooltip, requires jquery.min.js
+	include('floatingMenu.html');//This is the function to make the menu float
 ?>
-
 
 </body>
 </html>

@@ -81,5 +81,9 @@ include('footer.html');
 ?>
 
 </div><!--Closes outer-->
+
+<?php
+	include('floatingMenu.html');//This is the function to make the menu float
+?>
 </body>
 </html>

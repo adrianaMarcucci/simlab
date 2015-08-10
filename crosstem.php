@@ -115,7 +115,7 @@ the Swiss TIMES Electricity Model (Kannan and Turton, 2011).
 <h2>
 References
 </h2>
-The model has been used for various analyses including:
+<h3>Recent applications</h3>
 <ul>
 	<li class="first"> Pattupara, R. and R. Kannan (2014, 22.05.2014). Alternative low carbon electricity
 	pathways under a European nuclear phase-out - Achievement of Climate goals.
@@ -148,6 +148,7 @@ include('footer.html');
 	include('jqueryMin_include.php');//This has to be active if the library jquery.min.js is needed
 	$containers = array("box1","box2","box3");
 	include('glossaryTooltip_include.php'); //This activates the glossary tooltip, requires jquery.min.js
+	include('floatingMenu.html');//This is the function to make the menu float
 ?>
 
 </body>

@@ -96,12 +96,13 @@ investments.
 <h2>
 References
 </h2>
-For a detailed model description:
-Schlecht, I. and Weigt, H. (2014): Swissmod: A Model of the Swiss Electricity Market. FoNEW Discussion Paper 2014/01. <a href = "https://fonew.unibas.ch/fileadmin/fonew/redaktion/Paper/FoNEW_2014_01.pdf">Download</a>
+
+<h3>Detailed model description</h3>
+Schlecht, I. and Weigt, H. (2014): Swissmod: A Model of the Swiss Electricity Market. FoNEW Discussion Paper 2014/01. <a href = "https://fonew.unibas.ch/fileadmin/fonew/redaktion/Paper/FoNEW_2014_01.pdf"><span class='icon icon-external-link' id='iconLink'></span></a>
 
 <br class="clear" />
-For a sample application:
-Schlecht, I. and Weigt, H. (2014): Linking Europe: The Role of the Swiss Electricity Transmission Grid until 2050. FoNEW Discussion Paper 2014/03. <a href="https://fonew.unibas.ch/fileadmin/fonew/redaktion/Paper/FoNEW_2014_03.pdf">Link</a>
+<h3>Sample application</h3>
+Schlecht, I. and Weigt, H. (2014): Linking Europe: The Role of the Swiss Electricity Transmission Grid until 2050. FoNEW Discussion Paper 2014/03. <a href="https://fonew.unibas.ch/fileadmin/fonew/redaktion/Paper/FoNEW_2014_03.pdf"><span class='icon icon-external-link' id='iconLink'></span></a>
 
 <br class="clear" />
 <br class="clear" />
@@ -109,12 +110,12 @@ Schlecht, I. and Weigt, H. (2014): Linking Europe: The Role of the Swiss Electri
 Literature
 </h2>
 	<ul>
-	<li class="first">Swissgrid (2012). <a href="http://www.swissgrid.ch/dam/swissgrid/company/publications/de/Energiewende\_de.pdf" target="_blank">Energiewende. Uebertragungsnetz mit Schluesselrolle. Netzdaten 2012.</a></li>
-	<li>Swissgrid (2015). <a href="http://www.swissgrid.ch/dam/dataimport/energy_data/en/EnergieUebersichtCH_2014.xls" target="_blank">Energy Statistics Switzerland 2014</a></li>
+	<li class="first">Swissgrid (2012). Energiewende. Uebertragungsnetz mit Schluesselrolle. Netzdaten 2012. <a href="http://www.swissgrid.ch/dam/swissgrid/company/publications/de/Energiewende\_de.pdf" target="_blank"><span class='icon icon-external-link' id='iconLink'></span></a></li>
+	<li>Swissgrid (2015). Energy Statistics Switzerland 2014. <a href="http://www.swissgrid.ch/dam/dataimport/energy_data/en/EnergieUebersichtCH_2014.xls" target="_blank"><span class='icon icon-external-link' id='iconLink'></span></a></li>
 	<li>ENTSO-E (2013). Yearly Statistics & Adequacy Retrospect 2012. Brussels: European Network of Transmission System Operators for Electricity.</li>
-	<li>ENTSO-E (2015). <a href="https://www.entsoe.eu/data/data-portal/consumption/Pages/default.aspx" target="_blank">Consumption Data</a></li>
+	<li>ENTSO-E (2015). Consumption Data. <a href="https://www.entsoe.eu/data/data-portal/consumption/Pages/default.aspx" target="_blank"><span class='icon icon-external-link' id='iconLink'></span></a></li>
 	<li>BFE (2013). Schweizerische Elektrizitaetsstatistik 2012. Swiss Federal Office of Energy.</li>
-	<li class="last">BFE (2012). <a href="http://www.bfe.admin.ch/geoinformation/05061/05249/index.html?lang=de" target="_blank"> Statistik der Wasserkraftanlagen (WASTA). Swiss Federal Office of Energy</li>
+	<li class="last">BFE (2012). Statistik der Wasserkraftanlagen (WASTA). Swiss Federal Office of Energy. <a href="http://www.bfe.admin.ch/geoinformation/05061/05249/index.html?lang=de" target="_blank"><span class='icon icon-external-link' id='iconLink'></span></a> </li>
 	</ul>
 
 </div><!--Closes mainBox-->
@@ -131,6 +132,7 @@ include('footer.html');
 	include('jqueryMin_include.php');//This has to be active if the library jquery.min.js is needed
 	$containers = array("box1","box2","box3");
 	include('glossaryTooltip_include.php'); //This activates the glossary tooltip, requires jquery.min.js
+	include('floatingMenu.html');//This is the function to make the menu float
 ?>
 
 

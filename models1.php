@@ -103,6 +103,7 @@ include('footer.html');
 	include('jqueryMin_include.php');//This has to be active if the library jquery.min.js is needed
 ?>
 
+<!-- Script to open and close models list-->
 <script type="text/javascript">
 $(document).ready(function() {
 	$('#submenu').hide();
@@ -117,18 +118,17 @@ $(document).ready(function() {
 			$('#submenu').slideDown();
 			$(this).attr("class","displayed");
 		}
-		console.log("we are here");
 
 	});
 });
 </script>
 
+<!-- Script to expand and contract model description-->
 <script type="text/javascript">
 $(document).ready(function() {
 	$('.details').hide();
 	$('.moreInfo').click(function(e) {
 		e.preventDefault();
-		console.log("estamos aca");
 		if ($(this).find('.icon').attr("class") == "icon icon-plus-sign"){
 			$(this).find('.icon').attr("class","icon icon-minus-sign")
 			$(this.parentNode).find('.details').show();
@@ -142,7 +142,9 @@ $(document).ready(function() {
 });
 </script>
 
-
+<?php
+	include('floatingMenu.html');//This is the function to make the menu float
+?>
 
 </body>
 </html>

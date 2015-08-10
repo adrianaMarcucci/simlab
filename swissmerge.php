@@ -33,7 +33,7 @@ include('header.php');
 <div id="main">
 
 <?php
-$model = 'Swissmerge';
+$model = 'swissmerge';
 include('models_sideBar.php');
 include('models_infoBox.php');
 ?>
@@ -132,8 +132,8 @@ References
 <h3>Model description</h3>
 
 <ul>
-	<li class="first"> Marcucci, A. and H. Turton (2012): The MERGE-ETL model: Model documentation. Villigen, Switzerland: Paul Scherrer Institute. <a href='http://www.psi.ch/eem/ModelsEN/2012MergeDescription.pdf' target=_blank>Link</a></li>
-	<li class="last"> Marcucci, A. and H. Turton (2014): The MERGE-ETL model: 2014 Assumptions and model calibration. Villigen, Switzerland: Paul Scherrer Institute. <a href='http://www.psi.ch/eem/ModelsEN/2014MergeCalibration.pdf' target=_blank>Link</a></li>
+	<li class="first"> Marcucci, A. and H. Turton (2012): The MERGE-ETL model: Model documentation. Villigen, Switzerland: Paul Scherrer Institute. <a href='http://www.psi.ch/eem/ModelsEN/2012MergeDescription.pdf' target=_blank><span class='icon icon-external-link' id='iconLink'></span></a></li>
+	<li class="last"> Marcucci, A. and H. Turton (2014): The MERGE-ETL model: 2014 Assumptions and model calibration. Villigen, Switzerland: Paul Scherrer Institute. <a href='http://www.psi.ch/eem/ModelsEN/2014MergeCalibration.pdf' target=_blank><span class='icon icon-external-link' id='iconLink'></span></a></li>
 
 </ul>
 
@@ -171,6 +171,7 @@ include('footer.html');
 	include('jqueryMin_include.php');//This has to be active if the library jquery.min.js is needed
 	$containers = array("box1","box2","box3");
 	include('glossaryTooltip_include.php'); //This activates the glossary tooltip, requires jquery.min.js
+	include('floatingMenu.html');//This is the function to make the menu float
 ?>
 
 </body>

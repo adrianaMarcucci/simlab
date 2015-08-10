@@ -349,6 +349,7 @@ ol li {
 }
 
 #sidebar {
+	margin-top: 0;
 	float: left;
 	width: 95px;
 	padding: 0;
@@ -474,9 +475,14 @@ ol li {
 	border-bottom: dotted 1px #ccc;
 }
 
-.term a{
+#main .term a{
 	text-decoration: none;
 }
+
+#main .term a:hover{
+	text-decoration: none;
+}
+
 
 .term .title{
 	margin-bottom: 0.3em;
@@ -486,6 +492,7 @@ ol li {
 	font-weight: bold;
 	padding: 0 0 0 5pt;
 }
+
 
 .term .definition{
 	padding: 0 0 0 17pt;
@@ -771,6 +778,17 @@ ol li {
 	line-height:  18px;
 	font-size: 0.8em;
 	color: #999999;
+}
+
+#iconLink {
+	clear: left;
+	display: inline-block;
+	width: 12px;
+	height: 18px;
+	margin: 0 0 0 2pt;
+	line-height:  18px;
+	font-size: 0.8em;
+	color: #1E83D5;
 }
 
 #main .details {

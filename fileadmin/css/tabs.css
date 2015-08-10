@@ -40,7 +40,9 @@
 #tabs a:hover::after,
 #tabs a:focus,
 #tabs a:focus::after {
+  color: #212121;
   background: #f4f4f4;
+  text-decoration: none;
 }
 
 #tabs a:focus {
