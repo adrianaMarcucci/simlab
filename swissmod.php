@@ -75,7 +75,7 @@ investments.
 	<li class="first"> Hydraulic system of Switzerland (SwissTopo) </li>
 	<li> Electricity transmission grid (Swissgrid, 2012) and international exchange capacities (ENTSO-E, 2013)</li>
 	<li> Conventional (BFE, 2013) and hydro generation capacities (BFE, 2012)</li>
-	<li>Electricity demand (ENTSOE, 2015; SwissGrid, 2015)</li>
+	<li>Electricity demand (ENTSO-E, 2015; SwissGrid, 2015)</li>
 
 	</ul>
 </div>
@@ -98,16 +98,21 @@ References
 </h2>
 
 <h3>Detailed model description</h3>
-Schlecht, I. and Weigt, H. (2014): Swissmod: A Model of the Swiss Electricity Market. FoNEW Discussion Paper 2014/01. <a href = "https://fonew.unibas.ch/fileadmin/fonew/redaktion/Paper/FoNEW_2014_01.pdf"><span class='icon icon-external-link' id='iconLink'></span></a>
+<ul>
+	<li class="first">Schlecht, I. and Weigt, H. (2014): Swissmod: A Model of the Swiss Electricity Market. FoNEW Discussion Paper 2014/01.
+	<a href = "https://fonew.unibas.ch/fileadmin/fonew/redaktion/Paper/FoNEW_2014_01.pdf" target="_blank"><span class='icon icon-external-link' id='iconLink'></span></a>
+	</li>
+</ul>
 
-<br class="clear" />
 <h3>Sample application</h3>
-Schlecht, I. and Weigt, H. (2014): Linking Europe: The Role of the Swiss Electricity Transmission Grid until 2050. FoNEW Discussion Paper 2014/03. <a href="https://fonew.unibas.ch/fileadmin/fonew/redaktion/Paper/FoNEW_2014_03.pdf"><span class='icon icon-external-link' id='iconLink'></span></a>
+<ul>
+	<li class="first"> Schlecht, I. and Weigt, H. (2014): Linking Europe: The Role of the Swiss Electricity Transmission Grid until 2050.
+	FoNEW Discussion Paper 2014/03. <a href="https://fonew.unibas.ch/fileadmin/fonew/redaktion/Paper/FoNEW_2014_03.pdf" target="_blank"><span class='icon icon-external-link' id='iconLink'></span></a>
+	</li>
+</ul>
 
-<br class="clear" />
-<br class="clear" />
 <h2>
-Literature
+Data sources
 </h2>
 	<ul>
 	<li class="first">Swissgrid (2012). Energiewende. Uebertragungsnetz mit Schluesselrolle. Netzdaten 2012. <a href="http://www.swissgrid.ch/dam/swissgrid/company/publications/de/Energiewende\_de.pdf" target="_blank"><span class='icon icon-external-link' id='iconLink'></span></a></li>

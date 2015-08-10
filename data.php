@@ -70,7 +70,7 @@ $conn = connectToMySQL();
  *  Get all the terms in the glossary
  */
 $sqlData= "SELECT * FROM  `data`
-    ORDER BY  name ASC";
+    ORDER BY  long_name ASC";
 $resultData = $conn->query($sqlData);
 
 /*
@@ -78,7 +78,7 @@ $resultData = $conn->query($sqlData);
  */
 
 if (!$resultData) {
- 		echo "Sorry, a connection with the database occured, please try later";
+ 		echo "Sorry, an error connecting with the database occured, please try later";
  		exit;
 }
 else{
@@ -92,7 +92,7 @@ else{
 				echo "<tr  class='odd'>";
 				$odd = "even";
 			}
-			echo "<td>".$row["name"]."</td>";
+			echo "<td>".$row["long_name"]."</td>";
 			echo "<td>".$row["description"]."  <a href=# class='moreInfo'><span class='icon icon-plus-sign' id='icon'></span></a>";
 			echo "<div class='details'>";
 			echo "<br><ul>";
@@ -100,7 +100,17 @@ else{
 			echo "<li>Time resolution: " . $row["time"]. "</li>";
 			echo "<li>Unit: " . $row["unit"]. "</li>";
 			echo "<li>Regions: " . $row["regions"]. "</li>";
-			echo "<li>Models: " . $row["models"]. "</li>";
+			echo "<li>Models: ";
+
+			$models = explode(',',$row["models"]);
+			foreach($models as $key){
+				echo "<a href='". strtolower($key). ".php'>". $key . "</a>";
+				if ($key != end($models))
+        			echo ", ";
+
+			}
+			echo "</li>";
+
 			echo "</ul>";
 			echo "</div>";
 			echo "</td></tr>";
@@ -145,7 +155,6 @@ $(document).ready(function() {
 	$('.details').hide();
 	$('.moreInfo').click(function(e) {
 		e.preventDefault();
-		console.log("estamos aca");
 		if ($(this).find('.icon').attr("class") == "icon icon-plus-sign"){
 			$(this).find('.icon').attr("class","icon icon-minus-sign")
 			$(this.parentNode).find('.details').show();
