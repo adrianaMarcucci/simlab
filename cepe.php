@@ -70,11 +70,11 @@ electricity trade can be studied.
 	Model inputs
 	</h2>
 	<ul>
-	<li class="first"> Social accounting matrices (GTAP, Narayanan et al. 2008)</li>
-	<li>Hourly electricity generation (ENTSO-E, 2013a)</li>
-	<li>Cross-border electricity transmission capacities (ENTSO-E, 2011)</li>
-	<li>Electricity generation capacities (Platts, 2013)</li>
-	<li class="last">Electricity generation from renewable sources (different transmission system operators, ENTSO-E, 2013b)</li>
+	<li class="first"> Social accounting matrices (GTAP)</li>
+	<li>Hourly electricity generation (ENTSO-E, b)</li>
+	<li>Cross-border electricity transmission capacities (ENTSO-E, c)</li>
+	<li>Electricity generation capacities (Platts)</li>
+	<li class="last">Electricity generation from renewable sources (different transmission system operators and ENTSO-E, a)</li>
 	</ul>
 </div>
 
@@ -102,14 +102,14 @@ Abrell, J. and Rausch, S. (2015): Cross-Country Electricity Trade, Renewable Ene
 <br class="clear" />
 <br class="clear" />
 <h2>
-Sources
+Data sources
 </h2>
 	<ul>
-	<li class="first">ENTSO-E. 2011. Indicative values for Net Transfer Capacities (NTC) in Continental Europe. <a href="https://www.entsoe.eu/publications/market-reports/ntc-values/ntc-matrix/Pages/default.aspx" target="_blank"><span class='icon icon-external-link' id='iconLink'></span></a></li>
-	<li>ENTSO-E. 2013a. Hourly electricity generation. <a href="https://www.entsoe.eu/data/data-portal/consumption/ENTSO-E" target="_blank"><span class='icon icon-external-link' id='iconLink'></span></a></li>
-	<li>ENTSO-E. 2013b. Electricity generation from renewable sources - monthly production for a specific year. <a href="https://www.entsoe.eu/data/data-portal/production/Pages/default.aspx" target="_blank"><span class='icon icon-external-link' id='iconLink'></span></a></li>
-	<li>Narayanan, G., A. Badri, and R. McDougall, ed. 2012. Global Trade, Assistance, and Production: The GTAP 8 Data Base. Center for Global Trade Analysis, Purdue University.</li>
-	<li class="last">Platts. 2013. "World Electric Power Plants Database (Version Spring 2013)". </li>
+	<li class="first">ENTSO-E, a. Electricity generation from renewable sources - monthly production for a specific year (2013). <a href=data.php#entso_prod><span class='icon icon-signal' id='iconLink'></span></a></li>
+	<li>ENTSO-E, b.  Hourly electricity generation (2013). <a href=data.php#entso_cons><span class='icon icon-signal' id='iconLink'></span></a></li>
+	<li>ENTSO-E, c. Indicative values for Net Transfer Capacities (NTC) in Continental Europe. Accessed in 2011. <a href=data.php#entso_cap><span class='icon icon-signal' id='iconLink'></span></a></li>
+	<li>GTAP. Narayanan, G., A. Badri, and R. McDougall, ed. 2012. Global Trade, Assistance, and Production: The GTAP 8 Data Base. Center for Global Trade Analysis, Purdue University.  <a href=data.php#gtap><span class='icon icon-signal' id='iconLink'></span></a></li>
+	<li class="last">Platts. World Electric Power Plants Database (Version Spring 2013).  <a href=data.php#platts_powerplants><span class='icon icon-signal' id='iconLink'></span></a></li>
 	</ul>
 
 </div><!--Closes mainBox-->

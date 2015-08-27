@@ -28,11 +28,6 @@ include('header.php');
 <!-- ****************************************************************************************************************** -->
 <div id="main">
 
-<h1>
-Shared data
-</h1>
-
-
 <table class="column-options">
 <col width="150">
 <tr>
@@ -92,11 +87,11 @@ else{
 				echo "<tr  class='odd'>";
 				$odd = "even";
 			}
-			echo "<td>".$row["long_name"]."</td>";
-			echo "<td>".$row["description"]."  <a href=# class='moreInfo'><span class='icon icon-plus-sign' id='icon'></span></a>";
+			echo "<td><a name='".$row["short_name"]."'><span></span></a>".$row["long_name"]."</td>";
+			echo "<td>".$row["description"]."  <a href=#".$row["short_name"]. " class='moreInfo'><span class='icon icon-plus-sign' id='icon'></span></a>";
 			echo "<div class='details'>";
 			echo "<br><ul>";
-			echo "<li>Database: <a href='".$row["url"]."' target=_blank>" . $row["source"]. "</a></li>";
+			echo "<li>Database: <a href='".$row["url"]."' target=_blank>" . $row["source"]. ", " . $row["long_name"]. "</a></li>";
 			echo "<li>Time resolution: " . $row["time"]. "</li>";
 			echo "<li>Unit: " . $row["unit"]. "</li>";
 			echo "<li>Regions: " . $row["regions"]. "</li>";
@@ -150,21 +145,37 @@ include('footer.html');
 	include('jqueryMin_include.php');//This has to be active if the library jquery.min.js is needed
 ?>
 
+<!--This is the function to add the plus minus option-->
 <script type="text/javascript">
 $(document).ready(function() {
 	$('.details').hide();
+	// Find the anchor element in the hash and load it
+	var $varData = $("a[href='"+window.location.hash+"']");
+	$varData.find('.icon').attr("class","icon icon-minus-sign");
+	$varData.parent().find('.details').show();
+
+
 	$('.moreInfo').click(function(e) {
 		e.preventDefault();
 		if ($(this).find('.icon').attr("class") == "icon icon-plus-sign"){
-			$(this).find('.icon').attr("class","icon icon-minus-sign")
+			$(this).find('.icon').attr("class","icon icon-minus-sign");
 			$(this.parentNode).find('.details').show();
+			window.location.hash = $(this).closest("a").attr("href"); //change hash in url
 			}
 		else {
-			$(this).find('.icon').attr("class","icon icon-plus-sign")
+			$(this).find('.icon').attr("class","icon icon-plus-sign");
 			$(this.parentNode).find('.details').hide();
+			window.location.hash ='';
 		}
-
 	});
+
+	//This allows back and fwd
+	$(window).on('hashchange', function() {
+	     $('html, body').animate({
+	           'scrollTop':   $("a[href='"+window.location.hash+"']").offset().top
+	         }, 0);
+    });
+
 });
 </script>
 

@@ -73,9 +73,9 @@ investments.
 	</h2>
 	<ul>
 	<li class="first"> Hydraulic system of Switzerland (SwissTopo) </li>
-	<li> Electricity transmission grid (Swissgrid, 2012) and international exchange capacities (ENTSO-E, 2013)</li>
-	<li> Conventional (BFE, 2013) and hydro generation capacities (BFE, 2012)</li>
-	<li>Electricity demand (ENTSO-E, 2015; SwissGrid, 2015)</li>
+	<li> Electricity transmission grid (Swissgrid, 2012) and international exchange capacities (ENTSO-E, b)</li>
+	<li> Conventional (SFOE, 2013) and hydro generation capacities (SFOE, 2012)</li>
+	<li> Electricity demand (ENTSO-E, a; SwissGrid, 2015)</li>
 
 	</ul>
 </div>
@@ -115,12 +115,12 @@ References
 Data sources
 </h2>
 	<ul>
-	<li class="first">Swissgrid (2012). Energiewende. Uebertragungsnetz mit Schluesselrolle. Netzdaten 2012. <a href="http://www.swissgrid.ch/dam/swissgrid/company/publications/de/Energiewende\_de.pdf" target="_blank"><span class='icon icon-external-link' id='iconLink'></span></a></li>
-	<li>Swissgrid (2015). Energy Statistics Switzerland 2014. <a href="http://www.swissgrid.ch/dam/dataimport/energy_data/en/EnergieUebersichtCH_2014.xls" target="_blank"><span class='icon icon-external-link' id='iconLink'></span></a></li>
-	<li>ENTSO-E (2013). Yearly Statistics & Adequacy Retrospect 2012. Brussels: European Network of Transmission System Operators for Electricity.</li>
-	<li>ENTSO-E (2015). Consumption Data. <a href="https://www.entsoe.eu/data/data-portal/consumption/Pages/default.aspx" target="_blank"><span class='icon icon-external-link' id='iconLink'></span></a></li>
-	<li>BFE (2013). Schweizerische Elektrizitaetsstatistik 2012. Swiss Federal Office of Energy.</li>
-	<li class="last">BFE (2012). Statistik der Wasserkraftanlagen (WASTA). Swiss Federal Office of Energy. <a href="http://www.bfe.admin.ch/geoinformation/05061/05249/index.html?lang=de" target="_blank"><span class='icon icon-external-link' id='iconLink'></span></a> </li>
+	<li class="first">ENTSO-E, a. Consumption Data (2015). <a href=data.php#entso_cons><span class='icon icon-signal' id='iconLink'></span></a></li>
+	<li>ENTSO-E, b. Yearly Statistics & Adequacy Retrospect (2013). <a href=data.php#entso_stats><span class='icon icon-signal' id='iconLink'></span></a></li>
+	<li>SFOE (2012). Swiss hydropower plants: statistics. <a href=data.php#bfe_hydro><span class='icon icon-signal' id='iconLink'></span></a></li>
+	<li>SFOE (2013). Swiss Electricity statistics 2012. <a href=data.php#bfe_elecStats><span class='icon icon-signal' id='iconLink'></span></a></li>
+	<li>Swissgrid (2012). Energiewende. Uebertragungsnetz mit Schluesselrolle. Netzdaten 2012. <a href=data.php#swissgrid_grid><span class='icon icon-signal' id='iconLink'></span></a></li>
+	<li class="last">Swissgrid (2015). Energy Statistics Switzerland 2014. <a href=data.php#swissgrid_eneStats><span class='icon icon-signal' id='iconLink'></span></a></li>
 	</ul>
 
 </div><!--Closes mainBox-->

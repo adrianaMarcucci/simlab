@@ -78,9 +78,16 @@ Models can be classified according to different dimensions:
 	  <p><model>Hybrid models</model> aim at including a detailed representation of both the econony and the energy sector by combining top-down and bottom-up approaches.
 	  </p>
 
-	  <p><model>System dynamics</model> is a methodology to model systems using stocks and flows and emphasizing
-	  their feedback loops.
+	  <p><model>System Dynamics</model> (Forrester, 1961; Sterman, 2000) is a simulation and mapping method based on causal modelling.
+	       System Dynamics applies a stock and flow notification to represent a system's structure on an aggregated level.
+	       The central elements of System Dynamics are feedback loops - chains of causal interlinkages that form a back-coupled cycle.
+	       Technically the simulation model is a system of differential, integral and auxiliary equations.
 	  </p>
+	  <p>
+	  Sterman, J. (2000). Business Dynamics: McGraw-Hill.
+	  <br>Forrester, J. W. (1961). Industrial Dynamics. Cambridge, MA: The M.I.T. Press.
+	  </p>
+
 	</div>
 
     <div id="purpose" class="tab-content">
@@ -133,7 +140,9 @@ Models can be classified according to different dimensions:
     <div id="dynamic" class="tab-content">
      <p>A <model>dynamic</model> model represents the time dependent changes in the system while a
      <model>static</model> model is time-invariant. <model>Dynamic</model> models can have short-
-     and long- time horizons.</p>
+     and long- time horizons.
+
+     </p>
     </div>
 
 </div>

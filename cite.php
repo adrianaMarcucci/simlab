@@ -88,10 +88,10 @@ framework.
 	Model inputs
 	</h2>
 	<ul>
-	<li class="first"> Social accounting matrices (GTAP, Narayanan et al. 2008)</li>
-	<li>Swiss input/output table</li>
-	<li>Elasticities: MIT EPPA4, JP Report 125 </li>
-	<li class="last">For spillovers: EPO/OECD World Patent Statistical Database (PATSTAT) and OECD Citations Database</li>
+	<li class="first"> Social accounting matrices (GTAP)</li>
+	<li>Swiss input/output table (Swiss Federal Office of Energy)</li>
+	<li>Elasticities: MIT Emissions Prediction and Policy Analysis (EPPA) model (Paltsev et al, 2005) </li>
+	<li class="last">For spillovers: EPO World Patent Statistical Database (PATSTAT) and OECD Patents Database (OECD) </li>
 
 	</ul>
 </div>
@@ -126,11 +126,14 @@ For a recent application: Bretschger, L., Ramer, R., and Zhang, L. (2012): Econo
 <br class="clear" />
 
 <h2>
-Sources
+Data sources
 </h2>
 <ul>
-<li class="first">Narayanan, G., A. Badri, and R. McDougall, ed. 2012. Global Trade, Assistance, and Production: The GTAP 8 Data Base. Center for Global Trade Analysis, Purdue University.</li>
-<li class="last">Peter M., van Nieuwkoop R., Nathani C., Sutter D., Kraner S.(2013): "Energy related disaggregation of the Swiss IOT 2008 and revision of energy-IOT 2001 AND 2005", SFOE, EWG Publication 290843, Bern.</li>
+<li class="first">GTAP. Narayanan, G., A. Badri, and R. McDougall, ed. 2012. Global Trade, Assistance, and Production: The GTAP 8 Data Base. Center for Global Trade Analysis, Purdue University. <a href=data.php#gtap><span class='icon icon-signal' id='iconLink'></span></a></li>
+<li> OECD, OECD Patent Database. <a href=data.php#oecd_patents><span class='icon icon-signal' id='iconLink'></span></a></li>
+<li> Paltsev, S., J.M. Reilly, H.D. Jacoby, R.S. Eckaus, J. McFarland, M. Sarofim, M. Asadoorian and M. Babiker, 2005.  The MIT Emissions Prediction and Policy Analysis (EPPA) Model: Version 4, MIT Joint Program on the Science and Policy of Global Change Report 125, Cambridge, MA. <a href="http://web.mit.edu/globalchange/www/MITJPSPGC_Rpt125.pdf" target=_blank><span class='icon icon-external-link' id='iconLink'></a></li>
+<li> PATSTAT, European Patent Office (EPO), Worldwide Patent Statistical Database (PATSTAT). <a href=data.php#patstat><span class='icon icon-signal' id='iconLink'></span></a></li>
+<li class="last">Swiss Federal Office of Energy. Peter M., van Nieuwkoop R., Nathani C., Sutter D., Kraner S.(2013): "Energy related disaggregation of the Swiss IOT 2008 and revision of energy-IOT 2001 and 2005", EWG Publication 290843, Bern. <a href=data.php#ch_IOT><span class='icon icon-signal' id='iconLink'></span></a></li>
 </ul>
 
 </div><!--Closes mainBox-->

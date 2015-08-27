@@ -44,32 +44,28 @@ include('models_infoBox.php');
 </h1>
 
 <p>
-<i>TREES</i> is a simulation platform for the strategic planning of regional energy systems,
-which is developed by the Future Energy Systems group at the Institute of Sustainable Development
-of ZHAW. The simulation model addresses the dynamic interactions between technical, economic,
-legislative, and social factors emerging in regional energy systems in a generic manner.
-A System Dynamics (Sterman (2000) and Forrester (1961)) approach is used. Business models and
-region specific circumstances are the central coordination mechanism in the model.
-The model provides an endogenous simulation of likely transition patterns of decentralization
-tendencies, central capacity expansion and smart technology diffusion.
-The simulation horizon is from 2000 to 2050. The essential variables of the generic system
-dynamics model are shown in the Figure.
+<i>TREES</i> is a System Dynamics based simulation platform (Sterman (2000) and Forrester (1961))
+for actors in regional energy systems, such as cities / municipalities, utility companies, technology developers and investors.
+<i>TREES</i>  can be used as a virtual energy system to test strategies for a successful energy transition
+under different scenarios. A focus is set on the diffusion of system solutions for renewable energies,
+such as prosumer systems, microgrids, energy hubs, storage, virtual power plants, and the causal
+interrelations with business models and its impact on the achievement of energy system goals over time,
+such as share of renewables, CO2-emission reduction, economics, or autarky levels.
 </p>
 
 <figure>
-<img src="images/models/trees.png" width="400" alt="">
+<img src="images/models/trees.png" width="500" alt="">
  <figcaption>Generic model structure</figcaption>
 </figure>
 
 <p>
-The model is based on real data from public sources (Kirchner, 2012) and will be adapted
-to the case specific circumstances with participative workshops applying group model building
-techniques (Richardson, 1995) and local data. Strategies and development paths can be tested
-and varied for different scenarios. For example the influence of social acceptance on timely
-capacity development or the influence of a rising share of decentral energy supply systems
-on central energy supply or grid charges and tariffs. Simulation results and the gained insights
-will be useful for political decision-makers in regional energy systems, utility companies and
-technology developers.
+<i>TREES</i>  is based on a socio-technical transition framework that consists of a set of
+generic models that capture decisive processes of transition challenges in regional energy systems.
+The generic models can be used for case specific applications.
+The structure of the models is built based on insights from participatory workshops with stakeholders and
+results from case specific applications. Technically, the model is a set of differential,
+integral and auxiliary equations that is continuously simulated over the simulation time span
+of 2000 to 2050.
 </p>
 </div><!--Closes box1-->
 
@@ -104,8 +100,7 @@ Literature
 	<ul>
 	<li class="first">Sterman, J. (2000): Business Dynamics.McGraw-Hill.</li>
 	<li>Forrester, J.W. (1961): Industrial Dynamics. Cambridge, MA: The M.I.T. Press.</li>
-	<li>Kirchner, A. et al (2012): Energy Perspectives for Switzerland until 2050 [German], Prognos AG,  Basel.</li>
-	<li class="last">Richardson, G.P. and D.F. Andersen (1995): Teamwork in group model building. System Dynamics Review, 11(2): p. 113-137.</li>
+	<li class="last">Kirchner, A. et al (2012): Energy Perspectives for Switzerland until 2050 [German], Prognos AG,  Basel.</li>
 	</ul>
 
 </div><!--Closes mainBox-->

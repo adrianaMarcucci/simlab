@@ -76,15 +76,6 @@ The regional disaggregation in the Swiss MERGE-ETL includes 10 geopolitical regi
 </figure>
 
 
-<p>
-The analytical framework used to develop the <i>CROSSTEM</i> model is the Integrated MARKAL/EFOM
-System framework (TIMES). TIMES is a perfect foresight, technology rich, cost optimization modelling
-framework, which identifies the "least-cost" combination of technologies based on their operation
-characteristics to satisfy given demands under given technical and policy constraints
-(Loulou, Remne, Kanudia, Lehtila and Goldstein, 2005). The <i>CROSSTEM</i> model is an extension to
-the Swiss TIMES Electricity Model (Kannan and Turton, 2011).
-</p>
-
 </div><!--Closes box1-->
 
 
@@ -95,7 +86,7 @@ the Swiss TIMES Electricity Model (Kannan and Turton, 2011).
 	<ul>
 	<li class="first"> Technology characterization (capital and operational costs, efficiency, lifetime, availability)</li>
 	<li>Renewable energy resources potential</li>
-	<li>Resource availability: supply curves for non-renewable resources and potential for renewables</li>
+	<li>Resource availability: supply curves for non-renewable resources and potentials for renewables</li>
 	<li>Emission factors by energy carrier</li>
 	<li>Elasticities of substitution</i>
 	<li>Population</i>
@@ -132,8 +123,12 @@ References
 <h3>Model description</h3>
 
 <ul>
-	<li class="first"> Marcucci, A. and H. Turton (2012): The MERGE-ETL model: Model documentation. Villigen, Switzerland: Paul Scherrer Institute. <a href='http://www.psi.ch/eem/ModelsEN/2012MergeDescription.pdf' target=_blank><span class='icon icon-external-link' id='iconLink'></span></a></li>
+	<li class="first"> Kypreos, Socrates (2007). A MERGE model with endogenous technological change and the cost of carbon stabilization. Energy Policy 35: 5327-5336.</li>
+	<li>Magne, Bertrand, Socrates Kypreos, and Hal Turton (2010). Technology options for low stabilization pathways with MERGE. The Energy Journal. Special Issue 1 31: 83-108.</li>
+	<li>Manne, Alan, Robert Mendelsohn, and Richard Richels (1995). MERGE: A model for evaluating regional and global effects of GHG reduction policies. Energy Policy 23: 17-34. </li>
+	<li> Marcucci, A. and H. Turton (2012): The MERGE-ETL model: Model documentation. Villigen, Switzerland: Paul Scherrer Institute. <a href='http://www.psi.ch/eem/ModelsEN/2012MergeDescription.pdf' target=_blank><span class='icon icon-external-link' id='iconLink'></span></a></li>
 	<li class="last"> Marcucci, A. and H. Turton (2014): The MERGE-ETL model: 2014 Assumptions and model calibration. Villigen, Switzerland: Paul Scherrer Institute. <a href='http://www.psi.ch/eem/ModelsEN/2014MergeCalibration.pdf' target=_blank><span class='icon icon-external-link' id='iconLink'></span></a></li>
+	</ul>
 
 </ul>
 
@@ -146,16 +141,10 @@ References
 	and Nuclear Policy Uncertainty, The Swiss Journal of Economics and Statistics, Vol. 148 (2), pp. 317-345. </li>
 </ul>
 
-
+<!--
 <h2>
-Sources
-</h2>
-	<ul>
-	<li class="first"> Kypreos, Socrates (2007). A MERGE model with endogenous technological change and the cost of carbon stabilization. Energy Policy 35: 5327-5336.</li>
-	<li>Magne, Bertrand, Socrates Kypreos, and Hal Turton (2010). Technology options for low stabilization pathways with MERGE. The Energy Journal. Special Issue 1 31: 83-108.</li>
-	<li>Manne, Alan, Robert Mendelsohn, and Richard Richels (1995). MERGE: A model for evaluating regional and global effects of GHG reduction policies. Energy Policy 23: 17-34. </li>
-	<li>Marcucci, Adriana. (2012) Realizing a Sustainable Energy System in Switzerland in a Global Context. Ph.D. thesis, ETH Zurich.</li>
-	</ul>
+Data sources
+</h2>-->
 
 </div><!--Closes mainBox-->
 </div><!--Closes main-->
