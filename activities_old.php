@@ -36,8 +36,6 @@ include('activities_sideBar.php');
 
 <div id="mainBox">
 
-<h1>SimLab Phases</h1>
-
 <!--<div id = "timeframe">
 <iframe src='//cdn.knightlab.com/libs/timeline/latest/embed/index.html?source=1cg0QwawLpy147K7YxoIcW4rKGbLxLmGQ6uEu4lP0yGM&font=Georgia-Helvetica&maptype=toner&lang=en&start_zoom_adjust=2&height=650' width='100%' height='650' frameborder='0'></iframe>
 </div>-->
@@ -60,8 +58,8 @@ include('activities_sideBar.php');
 			type:       'timeline',
 			width:      '700',
 			height:     '600',
-			source:     'fileadmin/phases.json',
-			start_zoom_adjust:  '2',
+			source:     'fileadmin/timeline.json',
+			//start_zoom_adjust:  '3',
 			//start_at_end:       false,                          //OPTIONAL START AT LATEST DATE
             start_at_slide:     '1',                            //OPTIONAL START AT SPECIFIC SLIDE
             //start_zoom_adjust:  '3',                            //OPTIONAL TWEAK THE DEFAULT ZOOM LEVEL

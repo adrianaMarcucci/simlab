@@ -1,0 +1,20 @@
+{
+    "timeline":
+    {
+        "type":"default",
+   	"date": [
+            {
+                "startDate":"2015, 10, 1",
+                "endDate":"",
+                "headline":"1st educational workshop",
+                "text":"<b>Program</b><br><table class='column-options'><col width='90'><tr class='even'><td>8:30 - 9:00</td><td>Welcome and registration</td></tr><tr class='odd'><td>9:00 - 10:00</td><td>Introduction to computable general equilibrium modeling<br>Renger van Nieuwkoop, ETH Zurich</td></tr><tr class='even'><td>10:30 - 10:45</td><td>Break</td></tr><tr class='odd'><td>10:45 - 11:30</td><td>Equity and efficiency of climate policy under evolving consumption patterns: the case of China<br>Giacomo Schwarz (ETH Zurich), Justin Caron, and Valerie Karplus</td></tr><tr class='even'><td>11:30 - 12:15</td><td>Long-term evolution of the Swiss electricity system under a European electricity market: Development and application of a cluster of TIMES electricity models<br>Rajesh Pattupara, Kannan Ramachandran, Paul Scherrer Institute</td></tr><tr class='odd'><td>12:15 - 13:00</td><td>Swissmod: A model of the Swiss electricity market<br>Ingmar Schlecht, UniBasel</td></tr></table>"
+                },
+            {
+                "startDate":"2016, 03",
+                "endDate":"",
+                "headline":"2nd educational workshop",
+                "text":""
+                }             
+        ]
+    }
+}

@@ -51,6 +51,12 @@ strong {
 	color: #000000;
 }
 
+strong1{
+	font-family: Bitter, serif;
+	color: #505050;
+	font-weight: bold;
+	font-size:9.8pt;}
+
 img.left {
 	float: left;
 	margin: 8px 20px 20px 0;

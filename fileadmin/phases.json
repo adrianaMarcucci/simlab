@@ -1,0 +1,51 @@
+{
+    "timeline":
+    {
+        "type":"default",
+   	"date": [
+            {
+                "startDate":"2015, 01",
+                "endDate":"2015, 08",
+                "headline":"Phase 0. Taking stock: reviewing existing modeling capabilities",
+                "text":"<ol><li> gathering information from research groups about different simulation models currently used </li><li>providing short and accessible model descriptions of available simulation tools for energy-related socio-economic research in Switzerland</li><li>providing a synopsis of key model features and categorization of models in light of existing modeling paradigms</li> <li> providing meta-information about socio-economic data used in different simulation models</li> </ol>",
+                "tag":"Phase 0"
+            },
+            {
+                "startDate":"2015, 06",
+                "endDate":"2018, 06",
+                "headline":"Phase 1: Sharing knowledge; creating a resource and virtual knowledge platform",
+                "text":"The SimLab website is the main vehicle to:<ol><li> share knowledge of existing simulation-related capabilities;</li> <li> provide continuously updated information as models evolve & new tools are being added</li> <li>provide access to both simulation models and data </li></ol>",
+                "tag":"Phase 1"},
+            {
+                "startDate":"2015, 09",
+                "endDate":"2018, 06",
+                "headline":"Phase 2. Towards a framework for integrated assessment: integration of insights and model interfaces",
+                "text":"<ol><li>explore if and how existing simulation models be interfaced to create improved simulation tools for socio-economic analysis of the Swiss energy transition,</li><li>identify both value-added of model linkages and scope for project-based collaboration among research groups which use alternative simulation models </li> <li>integrate insights from other work streams</li></ol>",
+                "tag":"Phase 2"}
+       ],
+        "era": [
+            {
+                "startDate":"2015,01",
+                "endDate":"2015,08",
+                "headline":"Phase 0",
+                "text":"",
+                "tag":"Phase 0"
+            },
+            {
+                "startDate":"2015,06",
+                "endDate":"2018,06",
+                "headline":"Phase 1",
+                "text":"",
+                "tag":"Phase 1"
+            },
+            {
+                "startDate":"2015,09",
+                "endDate":"2018,06",
+                "headline":"Phase 2",
+                "text":"",
+                "tag":"Phase 2"
+            }              
+
+        ]
+    }
+}
